@@ -1,3 +1,6 @@
+Full credit to https://github.com/codecop/Book-Discounts-Refactoring-Kata.
+I only translate the kata to C++.
+
 # Book Discounts Refactoring Kata
 
 Exercises to practice refactoring coupled hierarchies.
