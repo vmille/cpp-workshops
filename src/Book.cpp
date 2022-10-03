@@ -8,7 +8,7 @@ namespace bookstore {
   int Book::DEFAULT_WEIGHT_BOOK_GRAMMS = 500;
 
   Book::Book(std::string const& name) : AbstractItem(name) {
-    //readyToDeliver = false;
+    
   }
 
   void Book::putIntoMyCart(Cart& cart) {

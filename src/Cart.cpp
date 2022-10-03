@@ -3,6 +3,7 @@
 //
 
 #include "Cart.h"
+#include <algorithm>
 
 namespace bookstore {
   void Cart::add(std::string const& item) {

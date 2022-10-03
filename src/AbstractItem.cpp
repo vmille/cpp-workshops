@@ -9,8 +9,7 @@
 namespace bookstore {
   int AbstractItem::NOT_READY_TO_DELIVER = -1;
 
-  AbstractItem::AbstractItem(std::string const& _name) {
-    name = _name;
+  AbstractItem::AbstractItem(std::string const& _name) : name(_name), readyToDeliver(false), deliveryCost(0) {
   }
 
   std::string AbstractItem::getName() {

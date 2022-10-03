@@ -6,7 +6,6 @@
 #define CPP_WORKSHOPS_CART_H
 
 #include <vector>
-#include <ranges>
 #include <string>
 #include <iostream>
 
